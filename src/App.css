@@ -18,8 +18,31 @@ body {
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  /* border: solid white 2px; */
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 10px 10px gold; 
 }
 
 .container {
@@ -75,6 +98,7 @@ body {
 }
 
 .Section2 {
+  background-position-y: bottom;
   background-image: url('./images/philly_circle.jpeg');
   background-size: cover;
   height: 100vh;
@@ -119,11 +143,25 @@ body {
 }
 
 .Section3 {
+  background-position-y: center;
   background-image: url('./images/ben_franklin.jpeg');
   background-size: cover;
   height: 100vh;
   width: 100vw;
 }
+
+.dial {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
