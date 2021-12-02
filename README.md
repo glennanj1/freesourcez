@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Credit
+Jarred Colligon
+John Glennan
+
+# About
+Open source simplicity 
+# Components || Features
+1. Email Suggestions - Email Entry Field
+2. Fielding User Input - (Name, Area Code, Phone Numbers (optional), Types of Resources (DropDown for Food, Shelter, Mental Health Resources and Other))
+3. Resource Recomendations (api to facebook group pages)
+4. About Page ("Our Story")
+# Goals 
+- Utilize maps to find resources for places to volunteer || get help []
+# Notes
+- Volunteer
+- Location Based Resources
+- User Input 
+- Emailing Service
+- Application connects people to opportunities
+# User Stories
+Use app to get help or help others in need with a lack of resources. 
+User enters user information or buisness organization (optional).
+When a user initially opens site it 
+
+
+
