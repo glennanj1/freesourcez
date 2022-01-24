@@ -1,7 +1,4 @@
-.MuiSpeedDial-root {
-    
-}
-
 .MuiSpeedDial-fab {
-    background-color: gold;
+    background-color: #e7e5e4 !important;
+    color: black !important;
 }
